@@ -22,5 +22,18 @@ translator = {"yemek" : "to eat", "yatmak" : "to sleep"}   #stores key : value p
 age = 10
 type_of_variable = type(age)
 
+"""Which data types are used where?
+String: Buttons 'Önceki ders' 'Bitir ve devam et'
+Int: ...% Tamamlandi
+Bool: Bitir ve devam et
 
+if statement
+username = input("Type in username")
+password = input("Type in password")
+if (username == ... and password == ...):
+    print("Valid input. Welcome!")
+else:
+    print("Username or password could not be found")
+
+"""
 
