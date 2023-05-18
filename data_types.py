@@ -18,5 +18,9 @@ lie = False
 #Dictionary
 translator = {"yemek" : "to eat", "yatmak" : "to sleep"}   #stores key : value pairs, whereas each pair is seperated by a comma
 
+#Type command 
+age = 10
+type_of_variable = type(age)
+
 
 
