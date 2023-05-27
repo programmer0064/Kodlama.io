@@ -1,6 +1,32 @@
 students = ["Mert", "Oguzhan", "Merve", "Esra"]
-
+print(students[0])
+students.append("Orhan")
 for student in students:
     print(student)
+
 print("\n")
-print(students[0])
+
+students.pop()   #-1 by default: deletes last item in the list 
+print(students)
+
+print("\n")
+
+students.remove("Oguzhan")
+print(students)
+
+print("\n")
+
+students.extend(["Hamsa", "Mehmet"])
+print(students)
+
+print("\n")
+
+for i in range(len(students)):
+    print(students[i])    
+
+print("\n")
+
+i=0
+while i<10:    #for döngüsünde i bir bir arttiliyor ama while de degil
+    print(i)
+    break
