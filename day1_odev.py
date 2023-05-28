@@ -30,3 +30,10 @@ i=0
 while i<10:    #for döngüsünde i bir bir arttiliyor ama while de degil
     print(i)
     break
+
+print(("\n"))
+print(("**************************************"))
+print(("\n"))
+
+test_format = "test"
+print(f"This is a {test_format}")
