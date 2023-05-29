@@ -9,8 +9,7 @@ def addStudent(students):
     addstudent = input("Do you want to add a student? Type in yes or no:    ")
     print("\n") 
 
-    do{
-        if addstudent == "yes":
+    if addstudent == "yes":
         studentname = input("Type in the student's name: ")
         students.append(studentname)
         print("The class now exists of " + str(len(students)) + " students: ")
@@ -21,8 +20,7 @@ def addStudent(students):
         print("Alright thanks for the answer")
     
     else:
-          exit("No eglible answer to the question. So try again!")
-          } while(addstudent == "yes" or addstudent == "no"); 
+          exit("No eglible answer to the question") 
 
 print("\n")
 
