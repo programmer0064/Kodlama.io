@@ -37,3 +37,11 @@ print(("\n"))
 
 test_format = "test"
 print(f"This is a {test_format}")
+
+sayi1 = 5
+
+def test():
+    sayi2 = sayi1
+    print(sayi2)
+
+test()
