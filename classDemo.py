@@ -38,10 +38,29 @@ while True:
                 favorite_cars.append(favorite_car)
             break
     except:
-        print("Please type in a number!")       
-        
+        print("Please type in a number!")    
 
-car1 = Car(brand = favorite_cars, number_of_doors = int(input("How many doors do you want: ")), speed = int(input("Type in the minimum amouunt of speed of of the car: ")))
+#----------------------------------------------------------------------------------------------------
+
+while True:
+    try:
+        number_of_doors = int(input("How many doors do you want: "))   
+        if isinstance(number_of_doors, int):
+            break
+    except:
+        print("Please type in a number!")          
+
+while True:
+    try:
+        speed = int(input("Type in the minimum amount of speed of the car: "))         
+        if isinstance(speed, int):
+            break
+    except:
+        print("Please type in a number!")
+
+#------------------------------------------------------------------------------------------------------
+
+car1 = Car(favorite_cars, number_of_doors, speed)
 
 print("\n")
 
