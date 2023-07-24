@@ -1,6 +1,6 @@
 students_class = ["Mehmet Ünlü", "Orhan Gündogan", "Serkan Aydogan", "Gürsoy Sancakli"]
 
-def printStudentsonScreen(students):
+def printStudentsOnScreen(students):
     print("The class exists of " + str(len(students_class)) + " students and in the class are: ")
     for i in students_class:
         print(i) 
@@ -92,7 +92,7 @@ def deleteMoreThanOneStudent(students):
             print("No eglible answer to the question, so try again!")
 
 
-printStudentsonScreen(students_class)
+printStudentsOnScreen(students_class)
 print("\n")
 addStudent(students_class)
 print("\n")
